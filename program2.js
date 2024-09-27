@@ -3,7 +3,7 @@
  * @return {number}
  */
 var romanToInt = function(s) {
-    // Dictionary for Roman numeral values
+
     const romanDict = {
         'I': 1,
         'V': 5,
