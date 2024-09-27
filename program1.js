@@ -13,9 +13,9 @@ var isValid = function(s) {
                 (c === ')' && stack[stack.length - 1] !== '(') || 
                 (c === '}' && stack[stack.length - 1] !== '{') || 
                 (c === ']' && stack[stack.length - 1] !== '[')) { 
-                return false; // Invalid string
+                return false; 
             }
-            stack.pop(); // Remove matched opening bracket
+            stack.pop();
         }
     }
 
