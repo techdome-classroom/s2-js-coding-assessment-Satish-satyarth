@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    let stack = []; // Stack to store opening brackets
+    let stack = [];
 
     for (let c of s) {
         if (c === '(' || c === '{' || c === '[') {
