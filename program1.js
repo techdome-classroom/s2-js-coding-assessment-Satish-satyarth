@@ -19,3 +19,4 @@ var isValid = function(s) {
         }
     }
     return !stack.length;
+}
