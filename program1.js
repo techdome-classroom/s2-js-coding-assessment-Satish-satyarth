@@ -19,5 +19,5 @@ var isValid = function(s) {
         }
     }
 
-    return !stack.length; // Valid if stack is empty
+    return !stack.length;
 };
