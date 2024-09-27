@@ -20,7 +20,7 @@ var romanToInt = function(s) {
         if (i + 1 < s.length && romanDict[s[i]] < romanDict[s[i + 1]]) {
             total -= romanDict[s[i]];
         } else {
-            // Otherwise, add its value to the total
+            
             total += romanDict[s[i]];
         }
     }
