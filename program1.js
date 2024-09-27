@@ -10,9 +10,9 @@ var isValid = function(s) {
             stack.push(c); // Push opening brackets onto the stack
         } else {
             if (!stack.length || // Stack is empty
-                (c === ')' && stack[stack.length - 1] !== '(') || // Mismatch for closing parenthesis
-                (c === '}' && stack[stack.length - 1] !== '{') || // Mismatch for closing curly brace
-                (c === ']' && stack[stack.length - 1] !== '[')) { // Mismatch for closing square bracket
+                (c === ')' && stack[stack.length - 1] !== '(') || 
+                (c === '}' && stack[stack.length - 1] !== '{') || 
+                (c === ']' && stack[stack.length - 1] !== '[')) { 
                 return false; // Invalid string
             }
             stack.pop(); // Remove matched opening bracket
