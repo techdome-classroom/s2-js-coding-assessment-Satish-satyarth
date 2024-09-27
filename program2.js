@@ -15,8 +15,6 @@ var romanToInt = function(s) {
     };
 
     let total = 0;
-
-    // Loop through the Roman numeral string
     for (let i = 0; i < s.length; i++) {
         // If the current Roman numeral is smaller than the next one, subtract it
         if (i + 1 < s.length && romanDict[s[i]] < romanDict[s[i + 1]]) {
