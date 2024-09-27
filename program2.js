@@ -27,7 +27,7 @@ var romanToInt = function(s) {
                 i++;
             } else {
             
-                // Otherwise, add the current value to sum
+                
                 sum += romanMap[str[i]];
             }
         }
