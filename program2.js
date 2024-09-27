@@ -16,8 +16,7 @@ var romanToInt = function (s) {
 
     let sum = 0;
     for (let i = 0; i < str.length; i++) {
-      // If the current value is less than the next value,
-      // subtract current from next and add to sum
+
       if (i + 1 < str.length && romanMap[str[i]] < romanMap[str[i + 1]]) {
         sum += romanMap[str[i + 1]] - romanMap[str[i]];
 
