@@ -29,7 +29,7 @@ var romanToInt = function (s) {
     return sum;
   }
 
-  console.log(romanToDecimal("IX")); // Output: 9
+  console.log(romanToDecimal("IX"));
 };
 
 module.exports = { romanToInt };
